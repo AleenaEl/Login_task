@@ -112,6 +112,7 @@ if (!username) {
                     variant="contained"
                     color="secondary"
                     onClick={handleLogoutClick}
+                   
                   >
                     Logout
                   </Button>
