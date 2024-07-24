@@ -13,8 +13,12 @@
 @media (max-width: 600px) {
   .card {
     max-width: 90%;
+    height: auto;
   }
   .btn{
+    margin-bottom: auto;
+  }
+  .text{
     margin-bottom: auto;
   }
 }
