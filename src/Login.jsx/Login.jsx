@@ -23,8 +23,8 @@ function Login() {
     margin: "70px auto",
   };
 
-  const handleLogin = () => {
-    // e.preventDefault();
+  const handleLogin = (e) => {
+    e.preventDefault();
     if (username.trim()) {
       localStorage.setItem("username", username);
       navigate("/dash");

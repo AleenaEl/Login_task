@@ -23,7 +23,8 @@ import './Dash.css'
 
 function Dash() {
   const navigate = useNavigate();
-  const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false);
+    
     const username = localStorage.getItem("username");
 
 
@@ -44,7 +45,8 @@ function Dash() {
 
   const handleBackBtn = () => {
     
-    setOpen(true);
+      setOpen(true);
+      window.history.pushState(null, "");
   };
 
   useEffect(() => {
