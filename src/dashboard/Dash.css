@@ -1,0 +1,31 @@
+.card {
+  width: 100%;
+  max-width: 800px;
+  min-width: 300px;
+  height: 300px;
+ 
+}
+
+.card-media {
+  height: 140px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 960px) {
+  .card {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 960px) {
+  .card {
+    width: 500px;
+    height: 350px;
+  }
+  
+}
